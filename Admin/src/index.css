@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    background-color: #6b4c3b7d;
+    border-color: brown;
+}
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+select,input,textarea{
+    border: 1px solid #6B4C3B;
+    outline-color: #6B4C3B ;
+    border-radius: 4px;
+}
